@@ -9,7 +9,7 @@ body {
 /* Header */
 header {
     background: #333;
-    color: #fff;
+    color: yellow;
     padding: 1rem;
     text-align: center;
     animation: pre 2s infinite;
@@ -59,3 +59,4 @@ footer {
         color: grey; 
     }
 }
+
