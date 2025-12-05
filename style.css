@@ -12,6 +12,7 @@ header {
     color: #fff;
     padding: 1rem;
     text-align: center;
+    animation: pre 2s infinite;
 }
 
 header nav ul {
@@ -42,22 +43,19 @@ section {
     background: #f9f9f9;
 }
 
-/* Contact Form */
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-}
-
-form input, form button {
-    margin: 5px 0;
-    padding: 8px;
-}
-
 /* Footer */
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
+
+}
+@keyframes pre{
+    10%{
+        color:azure;
+    }
+    20%{
+        color: grey; 
+    }
 }
